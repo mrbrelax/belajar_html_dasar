@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kontak</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <!-- Menu Website -->
+    <div>
+      <a href="../index.html">Home</a>
+      <a href="subfolder/kontak.html">Kontak</a>
+    </div>
+    <div>
+      <h1>Kontak</h1>
+      <h2>Tutorial online untuk belajar <span>membuat Website</span></h2>
+    </div>
+
+    <form>
+      <fieldset>
+          <legend> Nama dan Pesan </legend>
+        <label for="nama_user">Nama</label>
+        <input type="text" placeholder="Nama User" value="" id="nama_user" />
+        <br />
+        <label for="pesan_user">Pesan</label>
+        <textarea cols="100" rows="7" id="pesan_user">Pesan Saya adalah...</textarea>
+      </fieldset>
+      <br />
+      <fieldset>
+          <legend>Pilihan Data</legend>
+        <label>Hobi</label><br />
+        <input type="checkbox" name="hobi_user" value="0" checked /> Menggambar
+        <input type="checkbox" name="hobi_user" value="1" checked /> Menulis
+        <input type="checkbox" name="hobi_user" value="2" /> Menyanyi <br />
+        <label>Gender</label><br />
+        <input type="radio" name="gender" value="0" checked /> Laki-laki
+        <input type="radio" name="gender" value="1" checked /> Perempuan
+      <br/>
+      <label>Pelajaran</label>
+      <select>
+        <optgroup label="FrontEnd">
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+        </optgroup>
+
+        <optgroup>
+          <option value="php">PHP</option>
+          <option value="db">Database</option>
+        </optgroup>
+      </select>
+    </fieldset>
+    </form><br/>
+    <input type="submit" value="Send Message"><br/><br/>
+
+    <table border="1">
+      <caption>
+        Daftar Murid Tutorial HTML Dasar
+      </caption>
+      <tr>
+        <th>Nama Murid</th>
+        <th>Kota Asal</th>
+      </tr>
+      <tr>
+        <td>Bima</td>
+        <td>Bekasi</td>
+      </tr>
+    </table>
+
+    <!-- List HTML -->
+    <ul>
+      <li>Bima</li>
+      <li>Putra</li>
+    </ul>
+    <ol>
+      <li>Yudha</li>
+      <li>Dewi</li>
+    </ol>
+    <dl>
+      <dt>Bima</dt>
+      <dd>User pertama Belajar HTML</dd>
+      <dt>Putra</dt>
+      <dd>User Kedua Belajar HTML</dd>
+    </dl>
+    <p>&copy; By Bimantara Sutato Putra</p>
+  </body>
+</html>
