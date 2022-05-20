@@ -47,6 +47,11 @@ body{
 }
 
 #text_pendek{
+  background: yellow;
   font-size: 24px;
   font-weight: bold;
+  width: 50%;
+  height: 200px;
+  max-width: 30%;
+  max-height: 100px;
 }
