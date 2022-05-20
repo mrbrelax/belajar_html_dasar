@@ -1,0 +1,22 @@
+/* 
+Selector CSS : id,class */
+
+/* id: */
+#menu_web {
+  background: grey;
+}
+/* class: */
+.menu {
+  color: yellow;
+}
+h1 {
+  color: red;
+}
+h2 {
+  color: green;
+  font-size: 30px;
+}
+
+body{
+    background-color: #dfdfdf;
+}
