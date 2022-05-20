@@ -1,4 +1,10 @@
 body{
-    /* background-color: #dfdfdf; */
-    background-color: rgb(255, 0, 0);
+    /*
+    background-color: #dfdfdf;
+    background-image: url("img/coding_at_home.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    */
+    background: #dfdfdf url("img/coding_at_home.jpg") no-repeat fixed center;
 }
