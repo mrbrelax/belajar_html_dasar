@@ -1,6 +1,13 @@
 /* 
 Selector CSS : id,class */
 
+.menu{
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  text-decoration: none;
+}
+
 /* kondisi biasa */
 .menu:link{
   background: grey;
@@ -21,10 +28,15 @@ Selector CSS : id,class */
 
 }
 
+/* a{
+  display: block;
+} */
+
 h1 {
   color: blue;
   text-align: center;
   text-decoration: underline;
+  display: inline;
 }
 h2 {
   color: green;
